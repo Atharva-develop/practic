@@ -1,7 +1,7 @@
-function on(){
-    document.getElementById('bulb').src = 'yellow'
+function on() {
+    document.getElementById('bulb').setAttribute('fill', 'yellow');
 }
 
-function off(){
-    document.getElementById('bulb').fill = 'gray'
+function off() {
+    document.getElementById('bulb').setAttribute('fill', 'gray');
 }
