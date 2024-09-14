@@ -3,5 +3,5 @@ function on() {
 }
 
 function off() {
-    document.getElementById('bulb').setAttribute('fill', 'gray');
+    document.getElementById('bulb').setAttribute('fill', 'lightgray');
 }
