@@ -1,7 +1,7 @@
 function on(){
-    document.getElementById('image').src = 'image2.webp'
+    document.getElementById('bulb').src = 'yellow'
 }
 
 function off(){
-    document.getElementById('image').src = 'image1.webp'
+    document.getElementById('bulb').fill = 'gray'
 }
