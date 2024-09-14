@@ -9,7 +9,37 @@
 <body>
   <svg width="200" height="400" viewBox="0 0 200 400" xmlns="http://www.w3.org/2000/svg">
     <!-- Bulb -->
-    <ellipse id="bulb" cx="100" cy="120" rx="60" ry="80" fill="#F9F9F9" stroke="#333" stroke-width="2"/>
+    <ellipse id="bulb" cx="100" cy="120" rx="60" ry="80" fill="lightgray" stroke="#333" stroke-width="2"/>
+    
+    <!-- Base -->
+    <rect x="70" y="200" width="60" height="30" fill="#999" stroke="#333" stroke-width="2"/>
+    <rect x="85" y="230" width="30" height="10" fill="#666" stroke="#333" stroke-width="2"/>
+    
+    <!-- Filament -->
+    <line x1="100" y1="100" x2="100" y2="160" stroke="#333" stroke-width="2"/>
+    <line x1="90" y1="120" x2="110" y2="120" stroke="#333" stroke-width="2"/>
+    <line x1="100" y1="140" x2="100" y2="150" stroke="#333" stroke-width="2"/>
+    
+    <!-- Outline of the bulb -->
+    <ellipse cx="100" cy="120" rx="60" ry="80" fill="none" stroke="#333" stroke-width="2"/>
+  </svg>
+
+  <button id="bt" onclick="on()">glow</button>
+  <button id="bt2" onclick="off()">dull</button>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+  <svg width="200" height="400" viewBox="0 0 200 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Bulb -->
+    <ellipse id="bulb" cx="100" cy="120" rx="60" ry="80" fill="lightgray" stroke="#333" stroke-width="2"/>
     
     <!-- Base -->
     <rect x="70" y="200" width="60" height="30" fill="#999" stroke="#333" stroke-width="2"/>
